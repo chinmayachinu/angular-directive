@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-directive';
+  currentStyles={
+    'background-color' : 'red' ,
+    'color' : 'green' 
+  }
+
+  val:string =''
+
+  listOfPlayer:string[] =['Chinmaya', 'Pinku', 'Abhisek'];
+
+  day:string=""
 }

@@ -1,0 +1,11 @@
+.boundary{
+    border:2px solid black
+}
+
+.text-col{
+    color:rgb(14, 127, 158)
+}
+
+.back-col{
+    background-color: salmon;
+}
